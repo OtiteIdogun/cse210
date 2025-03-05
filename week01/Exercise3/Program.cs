@@ -61,7 +61,7 @@ class Program
 				}
 				else
 				{
-				    Console.WriteLine("Invalid input! Terminating program")
+				    Console.WriteLine("Invalid input! Terminating program");
 				}
 			}
 			else
