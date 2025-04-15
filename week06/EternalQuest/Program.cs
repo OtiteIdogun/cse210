@@ -1,9 +1,18 @@
 using System;
 
-class Program
+namespace EternalQuest
 {
-    static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        static void Main(string[] args)
+        {
+            // Added gamification feature: Updates level based on score
+            
+            Console.WriteLine("Welcome to Eternal Quest - Your Personal Goal Tracker!");
+            Console.WriteLine("Earn points and level up as you complete your goals!");
+           
+            GoalManager goalManager = new GoalManager();
+            goalManager.Start();
+        }
     }
 }
